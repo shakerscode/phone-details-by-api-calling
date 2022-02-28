@@ -2,7 +2,7 @@ const emptyError = document.getElementById('empty-error').style.display = 'none'
 const searchBtn = () =>{
 
     const searchText = document.getElementById('search-fild').value.toLowerCase();
-    if(searchText == '' ){
+    if(searchText == ''){
         const emptyError = document.getElementById('empty-error').style.display = 'block';
     }
     else{
@@ -11,7 +11,6 @@ const searchBtn = () =>{
         .then(res => res.json())
         .then(data => showPhonesData(data.data));
         const emptyError = document.getElementById('empty-error').style.display = 'none';
-       
     }
 }
 
