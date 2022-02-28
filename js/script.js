@@ -1,1 +1,5 @@
-console.log('hiii')
+
+
+searchBtn = () =>{
+    console.log('clicked')
+}
