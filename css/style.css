@@ -1,1 +1,6 @@
- 
+ #empty-error{
+     display: none;
+ }
+ #spinner-box{
+     display: none;
+ }
