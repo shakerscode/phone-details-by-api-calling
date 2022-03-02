@@ -7,6 +7,7 @@ const searchBtn = () =>{
         document.getElementById('empty-error').style.display = 'block';
     }
     else if(!isNaN(searchText)){
+        document.getElementById('invalid-error').style.display = 'none';
         document.getElementById('empty-error').style.display = 'block';
         const detailsBox = document.getElementById('details-card');
         detailsBox.textContent = '';
