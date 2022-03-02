@@ -5,6 +5,7 @@ const searchBtn = () =>{
 
     if(searchText === '' ){
         document.getElementById('empty-error').style.display = 'block';
+        document.getElementById('invalid-error').style.display = 'none';
     }
     else if(!isNaN(searchText)){
         document.getElementById('invalid-error').style.display = 'none';
