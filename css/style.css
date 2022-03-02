@@ -1,6 +1,16 @@
+ /* custom css */
  #empty-error{
      display: none;
  }
  #spinner-box{
      display: none;
+ }
+ #see-all{
+     display: none;
+ }
+ #invalid-error{
+     display: none;
+ }
+ .card{
+     box-shadow: 5px 5px 30px lightgray;
  }
